@@ -1,5 +1,11 @@
 import logo from "./logo.svg";
 import tristan from "./tristan.gif";
+import testImage1 from "./testImage1.jpg"
+import testImage2 from './testImage2.jpg'
+import testImage3 from "./testImage3.jpg"
+import testImage4 from './testImage4.jpg'
+import landingImage from "./landingImage.jpg"
+import moonImage from "./moonImage.jpg"
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -34,6 +40,12 @@ import tripguide from "./tripguide.png";
 export {
 	logo,
 	tristan,
+	testImage1,
+	testImage2,
+	testImage3,
+	testImage4,
+	moonImage,
+	landingImage,
 	backend,
 	creator,
 	mobile,
