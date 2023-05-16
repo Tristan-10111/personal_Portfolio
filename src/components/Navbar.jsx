@@ -20,7 +20,6 @@ const Navbar = () => {
 						window.scrollTo(0, 0);
 					}}>
 					<img src={tristan} alt='logo' className='w-24  object-contain' />
-					
 				</Link>
 				<ul className='list-none hidden sm:flex flex-row gap-10'>
 					{navLinks.map((links) => (

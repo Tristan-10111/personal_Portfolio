@@ -1,14 +1,12 @@
-import React from 'react'
+import React from "react";
 import { styles } from "../style";
-import { testImage4 } from '../assets';
 
 const Contact = () => {
-  return (
-    <section className=' container relative w-full h-screen mx-auto'>
-      <p>contact</p>
-    <img src={testImage4} alt="testImage4" className='w-full' />
-  </section>
-  )
-}
+	return (
+		<section className=' container relative w-full h-screen mx-auto'>
+			<p>contact</p>
+		</section>
+	);
+};
 
-export default Contact
+export default Contact;

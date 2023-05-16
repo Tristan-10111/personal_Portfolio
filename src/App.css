@@ -1,42 +1,99 @@
-/* #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+body,
+html {
+	height: 100%;
+	margin: 0;
+	font: 400 15px/1.8 "Lato", sans-serif;
+	color: #777;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
+.bgimg-1,
+.bgimg-2,
+.bgimg-3 {
+	position: relative;
+	opacity: 0.65;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.bgimg-1 {
+	background-image: url("https://images.pexels.com/photos/4873264/pexels-photo-4873264.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1.jpg");
+	min-height: 100vh;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.bgimg-2 {
+	background-image: url("https://images.pexels.com/photos/323314/pexels-photo-323314.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1.jpg");
+	min-height: 50vh;
 }
 
-.card {
-  padding: 2em;
+.bgimg-3 {
+	background-image: url("https://images.pexels.com/photos/803946/pexels-photo-803946.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1.jpg");
+	min-height: 400px;
 }
 
-.read-the-docs {
-  color: #888;
-} */
+.caption {
+	position: absolute;
+	left: 0;
+	top: 50%;
+	width: 100%;
+	text-align: center;
+	color: #000;
+}
+
+.caption span.border {
+	background-color: #111;
+	color: #fff;
+	padding: 18px;
+	font-size: 25px;
+	letter-spacing: 10px;
+}
+
+h3 {
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	font: 20px "Lato", sans-serif;
+	color: #111;
+}
+
+.h3_1 {
+	text-align: center;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	font: 20px "Lato", sans-serif;
+	color: #111;
+}
+
+.parralaxDemoDiv {
+	color: #777;
+	background-color: white;
+	text-align: center;
+	padding: 50px 80px;
+	text-align: justify;
+	height: 50vh;
+}
+.bg-Img_2_5 {
+	position: relative;
+}
+.innerBgDiv2_5 {
+	color: #ddd;
+	background-color: #282e34;
+	text-align: center;
+	padding: 50px 80px;
+	text-align: justify;
+}
+.innerBgDiv2_5_2 {
+	color: #ddd;
+	background-color: #282e34;
+	text-align: center;
+	padding: 50px 80px;
+	text-align: justify;
+}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+	.bgimg-1,
+	.bgimg-2,
+	.bgimg-3 {
+		background-attachment: scroll;
+	}
+}
