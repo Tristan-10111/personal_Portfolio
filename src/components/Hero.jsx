@@ -1,31 +1,18 @@
 import React, { useEffect } from "react";
 // import { motion } from "framer-motion";
-// import { styles } from "../style";
+import { styles } from "../style";
 // import { ComputersCanvas } from "./canvas";
 import { heroImage } from "../assets/index";
-
+import heroPageAnimation from "../assets/lottieFiles/heroPage.json"
+import Lottie from "lottie-react";
 const Hero = () => {
-	useEffect(() => {
-		<script src='https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js'></script>;
-	}, []);
 	return (
-		<section className='w-full h-screen mx-auto '>
+		<section className={'w-full h-screen '}>
 			<div className='bgimg-1'>
-				<div className='container row mt-5'>
-					<div className='col-6 mt-5'>Hello</div>
-					<div className='col-6'>
-						{/* <img src={heroImage} alt='heroImage' className='w-full' /> */}
-
-						<lottie-player
-							src='../assets/lottieFiles/01-animation1.gif.json'
-							background='#ffffff'
-							className='mt-5 w-12'
-							speed='1'
-							// style='width: 300px; height: 300px;'
-							hover
-							loop
-							controls
-							autoplay></lottie-player>
+				<div className={` ${styles.paddingX} flex items-center position absolute top-24 left-12 grid grid-cols-2 gap-1`}>
+					<div className=' text-base '>Hello</div>
+					<div className=''>
+						<Lottie animationData={heroPageAnimation} loop={true} className="w-1/2"/>
 					</div>
 				</div>
 			</div>
