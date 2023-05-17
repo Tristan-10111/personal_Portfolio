@@ -22,23 +22,18 @@ const App = () => {
 		<BrowserRouter>
 			<Navbar />
 			<Hero />
-
-			<div className='bg-Img_2_5'>
-				<div className='innerBgDiv2_5'></div>
-			</div>
+				<div className='innerBgDiv1'></div>
 			<About />
-			<div className='bg-Img_2_5'>
-				<div className='innerBgDiv2_5'></div>
-			</div>
+				<div className='innerBgDiv2'></div>
 			<Tech />
 			<div className='bg-Img_2_5'>
-				<div className='innerBgDiv2_5'></div>
+				<div className='innerBgDiv3'></div>
 			</div>
 
 			<Experience />
 
 			<div className='bg-Img_2_5'>
-				<div className='innerBgDiv2_5'>
+				<div className='innerBgDiv3'>
 					<p></p>
 				</div>
 			</div>

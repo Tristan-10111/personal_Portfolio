@@ -4,8 +4,9 @@ export default {
 	theme: {
 		extend: {
 			colors: {
-				navbarBg: "#282e34",
-				heroBg: "#ADB6C4",
+				navbarBg: "#3E505B",
+				heroBg: "#BEC5AD",
+				heroText: "#454545",
 				aboutBg: "#3F88C5",
 				techBg: "#ffffff",
 				secondary: "#aaa6c3",
@@ -29,4 +30,4 @@ export default {
 	plugins: [],
 };
 
-// #F0EDEE #FCFAFA
+// #F0EDEE /#FCFAFA /#282e34
