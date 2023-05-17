@@ -1,9 +1,11 @@
-import React from 'react'
+import React from "react";
 
 const Experience = () => {
-  return (
-    <div>Experience</div>
-  )
-}
+	return (
+		<section className='bgimg-3 parralaxDemoDiv'>
+			<p className='text-white text-xl font-semibold'>Experience</p>
+		</section>
+	);
+};
 
-export default Experience
+export default Experience;

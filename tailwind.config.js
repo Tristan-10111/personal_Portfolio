@@ -4,7 +4,10 @@ export default {
 	theme: {
 		extend: {
 			colors: {
-				primary: "#282e34",
+				navbarBg: "#282e34",
+				heroBg: "#ADB6C4",
+				aboutBg: "#3F88C5",
+				techBg: "#ffffff",
 				secondary: "#aaa6c3",
 				tertiary: "#151030",
 				"black-100": "#100d25",
@@ -25,3 +28,5 @@ export default {
 	},
 	plugins: [],
 };
+
+// #F0EDEE #FCFAFA
