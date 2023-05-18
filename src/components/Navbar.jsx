@@ -26,13 +26,18 @@ const Navbar = () => {
 						<li
 							key={links.id}
 							className={`${
-								active === links.title ? "activeText " : "text-white"
-							} hover:text-white text-[18px] font-medium cursor-pointer`}
+								active === links.title
+									? "activeText text-[21px] font-extrabold"
+									: "text-white text-lg"
+							}`}
 							onClick={() => setActive(links.title)}>
-							<a href={`#${links.id}`}>{links.title}</a>
+							<a href={`#${links.id}`} className='navLinks'>
+								{links.title}
+							</a>
 						</li>
 					))}
 				</ul>
+				{/* hover:active-text text-[18px] font-medium cursor-pointer */}
 				<div className='sm:hidden flex flex-1 justify-end items-center'>
 					<img
 						src={menuToggle ? close : menu}

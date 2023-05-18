@@ -3,10 +3,10 @@ import { styles } from "../style";
 
 const Tech = () => {
 	return (
-		<section className=' w-full h-screen  bg-techBg'>
-			<p className='text-black text-base position absolute my-10 left-20'>
-				tech
-			</p>
+		<section className=' w-full parralaxDemoDivContact bg-techBg'>
+			<h3 className='text-heroText text-center text-4xl font-bold'>
+				Tech Stack
+			</h3>
 		</section>
 	);
 };

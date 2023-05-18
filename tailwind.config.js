@@ -4,11 +4,11 @@ export default {
 	theme: {
 		extend: {
 			colors: {
-				navbarBg: "#3E505B",
+				navbarBg: "#454545",
 				heroBg: "#BEC5AD",
 				heroText: "#454545",
-				aboutBg: "#3F88C5",
-				techBg: "#ffffff",
+				aboutBg: "#454545",
+				techBg: "#BEC5AD",
 				secondary: "#aaa6c3",
 				tertiary: "#151030",
 				"black-100": "#100d25",

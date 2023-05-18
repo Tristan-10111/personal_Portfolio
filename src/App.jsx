@@ -22,23 +22,15 @@ const App = () => {
 		<BrowserRouter>
 			<Navbar />
 			<Hero />
-				<div className='innerBgDiv1'></div>
+			<div className='spacer layer'></div>
 			<About />
-				<div className='innerBgDiv2'></div>
+			<div className='spacer layer2'></div>
 			<Tech />
-			<div className='bg-Img_2_5'>
-				<div className='innerBgDiv3'></div>
-			</div>
-
+			<div className='spacer layer'></div>
 			<Experience />
-
-			<div className='bg-Img_2_5'>
-				<div className='innerBgDiv3'>
-					<p></p>
-				</div>
-			</div>
-
+			<div className='spacer layer2'></div>
 			<Contact />
+			<div className='spacer layer'></div>
 			<Footer />
 		</BrowserRouter>
 	);

@@ -2,8 +2,12 @@ import React from "react";
 
 const Experience = () => {
 	return (
-		<section className='bgimg-3 parralaxDemoDiv'>
-			<p className='text-white text-xl font-semibold'>Experience</p>
+		<section className={" w-full bg-aboutBg parralaxDemoDiv"}>
+			<div>
+				<h3 className='activeText text-center text-4xl font-bold'>
+					Experience{" "}
+				</h3>
+			</div>
 		</section>
 	);
 };

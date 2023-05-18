@@ -26,6 +26,10 @@ export const navLinks = [
 		title: "Tech",
 	},
 	{
+		id: "experience",
+		title: "Experience",
+	},
+	{
 		id: "contact",
 		title: "Contact",
 	},
@@ -40,8 +44,6 @@ const services = [
 		title: "React Js Developer",
 		icon: mobile,
 	},
-	
-	
 ];
 
 const technologies = [
@@ -118,7 +120,7 @@ const experiences = [
 			"Implementing responsive design and ensuring cross-browser compatibility.",
 			"Participating in code reviews and providing constructive feedback to other developers.",
 		],
-	}
+	},
 ];
 
 // const testimonials = [

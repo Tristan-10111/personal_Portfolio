@@ -1,6 +1,7 @@
 import logo from "./logo.svg";
 import tristan from "./tristan.gif";
 import heroImage from "./heroImage.gif";
+import profileImage from "./profileImage.png";
 import underGroundImage from "./underGroundImage.jpg";
 import landingImage from "./landingImage.jpg";
 import moonImage from "./moonImage.jpg";
@@ -39,6 +40,7 @@ export {
 	logo,
 	tristan,
 	heroImage,
+	profileImage,
 	moonImage,
 	landingImage,
 	underGroundImage,
