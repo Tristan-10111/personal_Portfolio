@@ -73,19 +73,23 @@ button span {
 	position: relative;
 	z-index: 1;
 }
+
+.contactBtn{
+	background-color: #0047E0;
+}
 .profileImg {
 	clip-path: circle();
 	animation: upDown 3s linear infinite;
 }
 @keyframes upDown {
 	0% {
-		transform: translateY(-20px);
+		transform: translateY(-10px);
 	}
 	50% {
-		transform: translateY(20px);
+		transform: translateY(10px);
 	}
 	100% {
-		transform: translateY(-20px);
+		transform: translateY(-10px);
 	}
 }
 
