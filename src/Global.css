@@ -119,6 +119,41 @@ button span {
 	padding: 10px 10px;
 }
 
+.icon {
+	border: 2px solid #ff9500;
+	height: 50px;
+	width: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	margin: 5px;
+}
+
+.icon i {
+	font-size: 25px;
+	color: #ffffff;
+}
+
+/* .icon i :hover {
+	color: #ff9500;
+} */
+.icon:focus {
+	animation: bounce 0.4s cubic-bezier(0.59, -0.67, 0.24, 0.79) 2;
+	animation-direction: alternate;
+	color: #ffffff;
+}
+
+@keyframes bounce {
+	0% {
+		transform: translateY(0);
+	}
+
+	100% {
+		transform: translateY(-40px);
+	}
+}
+
 @media only screen and (max-device-width: 1024px) {
 	.bgimg-1,
 	.bgimg-2,
