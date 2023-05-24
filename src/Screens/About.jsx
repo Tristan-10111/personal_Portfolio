@@ -6,11 +6,11 @@ const About = () => {
 	return (
 		<section className={" w-full bg-aboutBg parralaxDemoDiv"}>
 			<div className='flex '>
-				<div className='w-1/2 my-12 mx-12 bg-black' data-aos='fade-right'>
+				<div className='w-1/2 my-12 mx-12' data-aos='fade-right'>
 					<img src={profileImage} alt='profileImage' className='profileImg' />
 				</div>
 				<div
-					className='bg-black text-base text-white w-1/2 mx-9 my-24'
+					className=' text-base text-white w-1/2 mx-9 my-24'
 					data-aos='fade-down'>
 					<h3 className='my-6 activeText text-4xl font-bold'>About me </h3>
 					<p>

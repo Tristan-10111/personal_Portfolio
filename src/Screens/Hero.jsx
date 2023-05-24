@@ -11,7 +11,7 @@ const Hero = () => {
 		<section className={" w-full h-screen bg-heroBg "}>
 			<div className='flex my-24 items-center'>
 				<div
-					className='bg-black text-base text-center text-white w-1/2 my-32 mx-9'
+					className=' text-base text-center text-white w-1/2 my-32 mx-9'
 					data-aos='fade-right'>
 					<p className='text-heroText'>Hi there</p>
 					<h3 className='my-6 text-heroText text-4xl font-bold'>
@@ -30,7 +30,7 @@ const Hero = () => {
 						</button>
 					</div>
 				</div>
-				<div className='bg-secondary w-1/2 mx-6'>
+				<div className=' w-1/2 mx-6'>
 					<Lottie
 						animationData={heroPageAnimation}
 						loop={true}
