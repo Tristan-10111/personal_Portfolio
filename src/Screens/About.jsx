@@ -1,6 +1,7 @@
 import React from "react";
 import { styles } from "../style";
 import { profileImage } from "../assets";
+import { aboutTech } from "../Constants";
 
 const About = () => {
 	return (
@@ -19,6 +20,13 @@ const About = () => {
 						ever since the 1500s, when an unknown printer took a galley of type
 						and scrambled it to make a type specimen book.
 					</p>
+					<div className='flex my-6 -mx-6'>
+						{aboutTech.map((tech, ind) => (
+							<div key={ind} className='flex'>
+								<img src={tech.icon} className='w-6 mx-6' />
+							</div>
+						))}
+					</div>
 				</div>
 			</div>
 		</section>
