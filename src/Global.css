@@ -79,6 +79,11 @@ button span {
 	clip-path: circle();
 	animation: upDown 3s linear infinite;
 }
+.profileImg2 {
+	clip-path: circle();
+	animation: upDown 3s linear infinite;
+	width: 5rem;
+}
 @keyframes upDown {
 	0% {
 		transform: translateY(-10px);
