@@ -1,9 +1,9 @@
 import Hero from "../Screens/Hero";
 import About from "../Screens/About";
-import Tech from "../Screens/Tech";
+import Projects from "./Projects";
 import Experience from "../Screens/Experience";
-import Works from "../Screens/Works";
 import Feedbacks from "../Screens/Feedbacks";
 import Contact from "../Screens/Contact";
+import Tech from "./Tech";
 
-export { Hero, About, Tech, Experience, Works, Feedbacks, Contact };
+export { Hero, About, Tech, Experience, Projects, Feedbacks, Contact };

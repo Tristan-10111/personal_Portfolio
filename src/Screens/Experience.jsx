@@ -36,17 +36,16 @@ const Experience = () => {
   return (
     <section className={" w-full bg-aboutBg parralaxDemoDiv"}>
       <div>
-        <h3 className="activeText text-center text-4xl font-bold">
+        <h3 className="activeText text-center text-4xl font-bold desktop:pt-28">
           Experience{" "}
         </h3>
         <Carousel
           responsive={responsive}
           showDots={true}
-          className="text-center my-12"
+          className="text-center my-16"
         >
           {experience}
         </Carousel>
-        ;
       </div>
     </section>
   );

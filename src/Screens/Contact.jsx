@@ -6,19 +6,19 @@ import { ContactForm } from "../Components";
 const Contact = () => {
   return (
     <>
-      <section className={" w-full parralaxDemoDivContact bg-techBg "}>
+      <section className={" w-full parralaxDemoDivContact bg-aboutBg "}>
         {/* <h3 className='text-heroText text-center text-4xl font-bold'>
 					Contact
 				</h3> */}
         <div className="flex items-center">
-          <div className=" text-base text-white w-1/2 mx-12 mx-32 ">
+          <div className=" text-base text-white w-1/2 mx-12 ">
             <h3
-              className="text-heroText text-left my-12 text-5xl font-bold"
+              className="laptop:text-secondary text-left my-12 text-5xl font-bold  tablet:text-white phone:text-black"
               data-aos="fade-down"
             >
               Let's talk
             </h3>
-            <form data-aos="fade-right">
+            <form data-aos="fade-right" className="phone:animationOverflow">
               <div className="flex flex-col">
                 <input
                   type="email"
@@ -46,7 +46,7 @@ const Contact = () => {
             </form>
           </div>
 
-          <div className=" w-1/2 -my-6" data-aos="fade-down">
+          <div className=" w-1/2 -my-6 animationOverflow" data-aos="fade-down">
             <Lottie animationData={ContactAnimation} loop={true} />
           </div>
         </div>

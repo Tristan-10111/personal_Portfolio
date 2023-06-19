@@ -20,12 +20,12 @@ const Tech = () => {
     // 		))}
     // 	</div>
     // </section>
-    <section className="flex items-center text-gray-600  bg-techBg lg:parralaxDemoDivContact">
+    <section className="flex items-center text-heroText  bg-techBg desktop:parralaxDemoDivContact">
       <div className="container px-5 mx-auto">
-        <h4 className="text-4xl md:text-6xl text-gray-700 font-semibold text-center mb-12">
+        <h4 className="desktop:text-4xl tablet:text-6xl text-heroText font-semibold text-center mb-12">
           Tech stack
         </h4>
-        <div className="flex flex-wrap -m-4">
+        <div className="flex flex-wrap justify-center">
           {technologies.map((tech, ind) => (
             <div className="p-4 sm:w-1/2 lg:w-1/4" key={ind}>
               <div
@@ -34,7 +34,7 @@ const Tech = () => {
               >
                 <p className="text-center">{tech.name}</p>
                 <img
-                  className="lg:h-72 w-72 md:h-80 sm:w-full object-cover object-center"
+                  className="desktop:h-72 w-72 tablet:h-80 phone:w-full object-cover object-center"
                   src={tech.icon}
                   alt="techIcons"
                 />

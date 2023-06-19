@@ -8,13 +8,13 @@ const About = () => {
     <section className={" w-full bg-aboutBg parralaxDemoDiv"}>
       <div className="flex ">
         <div
-          className="lg:w-1/2 my-12 mx-12 sm:w-full mt-32"
+          className="desktop:w-1/2 my-12 mx-12 phone:w-full mt-32"
           data-aos="fade-right"
         >
           <img
             src={profileImage}
             alt="profileImage"
-            className="profileImg sm:profileImg2"
+            className="desktop:-mt-16 profileImg phone:profileImg2"
           />
         </div>
         <div

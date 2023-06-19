@@ -4,17 +4,17 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <section className=" w-full parralaxDemoDivFooter  bg-aboutBg">
+    <section className=" w-full parralaxDemoDivFooter  bg-techBg">
       <h3
-        className="activeText text-center text-3xl font-bold "
+        className="text-heroText text-center text-3xl font-bold position relative top-9"
         data-aos="fade-down"
       >
         © All rights reserved 2023
       </h3>
-      <div className="flex justify-center my-6  z-200" data-aos="fade-right">
+      <div className="flex justify-center mt-14  z-200" data-aos="fade-right">
         <Link
           className="icon"
-          to="https://www.facebook.com/tristan.vollenhoven.733"
+          //   to="https://www.facebook.com/tristan.vollenhoven.733"
         >
           <i class="fab fa-facebook-f"></i>
         </Link>

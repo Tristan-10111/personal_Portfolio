@@ -2,11 +2,24 @@
 export default {
   content: ["./src/**/*.{js,jsx}"],
   theme: {
+    screens: {
+      phone: "285px",
+      // => @media (min-width: 640px) { ... }
+      tablet: "640px",
+      // => @media (min-width: 640px) { ... }
+
+      laptop: "1024px",
+      // => @media (min-width: 1024px) { ... }
+
+      desktop: "1280px",
+      // => @media (min-width: 1280px) { ... }
+    },
     extend: {
       colors: {
         navbarBg: "#454545",
         heroBg: "#BEC5AD",
         heroText: "#454545",
+        activeText: "#ff9500",
         aboutBg: "#454545",
         techBg: "#BEC5AD",
         secondary: "#aaa6c3",
@@ -18,9 +31,6 @@ export default {
       },
       boxShadow: {
         card: "0px 35px 120px -15px #211e35",
-      },
-      screens: {
-        xs: "450px",
       },
       backgroundImage: {
         "hero-pattern": "url('/src/assets/herobg.png')",

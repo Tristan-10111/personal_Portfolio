@@ -8,10 +8,10 @@ import heroPageAnimation from "../assets/lottieFiles/heroPage.json";
 import Lottie from "lottie-react";
 const Hero = () => {
   return (
-    <section className={" w-full h-screen bg-heroBg "}>
-      <div className="flex lg:flex-row my-24 items-center sm:flex-col">
+    <section className={"desktop:w-full h-screen bg-heroBg"}>
+      <div className="flex desktop:flex-row my-24 items-center phone:flex-col">
         <div
-          className=" text-base text-center text-white w-1/2 my-32 mx-9"
+          className="desktop:text-base text-center w-1/2 my-32 mx-9 phone:w-full  "
           data-aos="fade-right"
         >
           <p className="text-heroText">Hi there</p>
@@ -31,11 +31,11 @@ const Hero = () => {
             </button>
           </div>
         </div>
-        <div className="w-1/2 mx-6 lg:flex sm:hidden md">
+        <div className="desktop:flex mx-6 phone:hidden">
           <Lottie
             animationData={heroPageAnimation}
             loop={true}
-            // className='w-1/2'
+            className="phone:w-full"
           />
         </div>
       </div>
