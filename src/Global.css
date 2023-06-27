@@ -177,3 +177,16 @@ button span {
 	overflow-x: hidden;
 }
 
+.projectImage:hover{
+	position: absolute;
+	
+	width: 25rem;
+	transition: 1s;
+}
+
+/* .projectImage3:hover{
+	position: absolute;
+	right: 5rem;
+	width: 50rem;
+} */
+

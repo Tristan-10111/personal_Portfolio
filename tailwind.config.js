@@ -21,6 +21,7 @@ export default {
         heroText: "#454545",
         activeText: "#ff9500",
         aboutBg: "#454545",
+        cardBg: "#DDE6ED",
         techBg: "#BEC5AD",
         secondary: "#aaa6c3",
         tertiary: "#151030",

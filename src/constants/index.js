@@ -13,9 +13,9 @@ import {
   git,
   figma,
   shopify,
-  carrent,
-  jobit,
-  tripguide,
+  carDealershipApp,
+  wellBeingApp,
+  weatherApp,
 } from "../assets";
 
 export const navLinks = [
@@ -154,31 +154,10 @@ const experiences = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Weather App",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: carrent,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
+      "Web-based platform that allows users to search weather conditions around various cities , providing hourly and daily forecast.",
+    tech: [
       {
         name: "react",
         color: "blue-text-gradient",
@@ -188,24 +167,45 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "tailwind",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: weatherApp,
+    source_code_link: "https://github.com/Tristan-10111/myWeatherApp",
   },
   {
-    name: "Trip Guide",
+    name: "Car dealership",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
+      "Web-based platform that allows users to search, buy, recomendations for cars on our market, view availabe car ranges for all taste in cars, and get detailed description about cars.",
+    tech: [
       {
-        name: "nextjs",
+        name: "HTML",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "CSS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "JS",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: carDealershipApp,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "well-being platform",
+    description:
+      "A web application, for a call cente that focuses on the well being of youth in south africa an records the wellbeing of youth in south africa",
+    tech: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Bootstrap",
         color: "green-text-gradient",
       },
       {
@@ -213,7 +213,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: wellBeingApp,
     source_code_link: "https://github.com/",
   },
 ];
